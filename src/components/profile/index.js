@@ -13,8 +13,7 @@ const Profile = () => {
           <h1>{githubState.user.name}</h1>
           <S.WrapperUserGeneric>
             <h3>Username:</h3>
-            <a
-              href={githubState.user.html_url}
+            <a href={githubState.user.html_url}
               target="_blank"
               rel="noreferrer"
             >
